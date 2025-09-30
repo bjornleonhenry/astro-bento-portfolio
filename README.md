@@ -1,12 +1,6 @@
-# ⚡️astro-bento-portfolio
+# Astro Bento Portfolio
 
-## A personal portfolio website made using `Astro`.
-
-![astro-bento-portfolio | Bento-like Personal Porfolio Template](public/preview.png)
-
-To view a demo example, **[click here](https://sparkly-speculoos-0c9197.netlify.app/)**
-
-or my portfolio **[click here](https://gianmarcocavallo.com)**
+A modern personal portfolio website template built with Astro, featuring a clean bento-style design.
 
 ## Features
 
@@ -30,7 +24,7 @@ or my portfolio **[click here](https://gianmarcocavallo.com)**
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/Ladvace/astro-bento-portfolio
+$ git clone <repository-url>
 ```
 
 ```bash
@@ -52,24 +46,26 @@ or
 $ npm run dev
 ```
 
-# Be sure to replace the momoji and all the relative information, such as email, website and other info, if you don't your website is gonna point to my domain and to my info
+## Configuration
 
-## REMOVE THE umami analytics script tag (or replace it with your id) in `src/layouts/Layout.astro`
+Remember to update the site configuration and personal information in `astro.config.mjs` and related files to match your requirements.
 
-# Configuration
+## Analytics
 
-remember to replace the `site` and other properties with your data in `astro.config.mjs`
+You can add your preferred analytics service by modifying the `src/layouts/Layout.astro` file.
 
-# Deploy on Netlify 🚀
+## Deployment
 
-Deploying your website on Netlify it's optional but I reccomand it in order to deploy it faster and easly.
+This project can be easily deployed to various platforms including Netlify, Vercel, or any other hosting service that supports static sites.
 
-You just need to fork this repo and linking it to your Netlify account.
+### Deploy to Netlify
 
-or
+1. Push your code to GitHub
+2. Connect your repository to Netlify
+3. Deploy with a single click
 
-[![Netlify Deploy button](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/Ladvace/astro-bento-portfolio)
+### Deploy to Vercel
 
-## Authors ❤️
-
-- Gianmarco - https://github.com/Ladvace
+1. Push your code to GitHub
+2. Import your project on Vercel
+3. Deploy automatically on every push
